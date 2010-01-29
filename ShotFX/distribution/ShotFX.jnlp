@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="http://kenai.com/projects/shotfx/downloads/download/" href="ShotFX.jnlp">
+<jnlp spec="1.0+" codebase="http://cloud.github.com/downloads/cretzel/ShotFX/" href="ShotFX.jnlp">
     <information>
         <title>ShotFX</title>
         <vendor>cretzel</vendor>
-        <homepage href="http://kenai.com/shotfx/"/>
+        <homepage href="http://github.com/cretzel/ShotFX"/>
         <description>ShotFX</description>
         <offline-allowed/>
         <shortcut>
