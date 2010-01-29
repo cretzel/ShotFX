@@ -1,0 +1,2 @@
+keytool -genkey -keystore shotfxKeys -alias cretzel
+jarsigner -keystore shotfxKeys ShotFX.jar cretzel

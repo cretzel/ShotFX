@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/C%3A/Users/Nick/Projekte/Workspaces/JavaFXWorkspace/ShotFX-Parent/ShotFX/dist/" href="ShotFX.jnlp">
+    <information>
+        <title>ShotFX</title>
+        <vendor>cretzel</vendor>
+        <homepage href="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/C%3A/Users/Nick/Projekte/Workspaces/JavaFXWorkspace/ShotFX-Parent/ShotFX/dist/"/>
+        <description>ShotFX</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="ShotFX.jar" main="true"/>
+        <jar href="lib/ShotFXj.jar"/>
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main">
+        <argument>MainJavaFXScript=com.kenai.shotfx.ShotFX</argument>
+    </application-desc>
+    <update check="background">
+</jnlp>

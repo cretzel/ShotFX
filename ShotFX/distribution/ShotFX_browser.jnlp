@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://kenai.com/projects/shotfx/downloads/download/" href="ShotFX_browser.jnlp">
+    <information>
+        <title>ShotFX</title>
+        <vendor>cretzel</vendor>
+        <homepage href="http://kenai.com/shotfx/"/>
+        <description>ShotFX</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="ShotFX.jar" main="true"/>
+        <jar href="ShotFXj.jar"/>
+    </resources>
+    <applet-desc name="ShotFX" main-class="com.sun.javafx.runtime.adapter.Applet" width="200" height="200">
+        <param name="MainJavaFXScript" value="com.kenai.shotfx.ShotFX">
+    </applet-desc>
+    <update check="background">
+</jnlp>
